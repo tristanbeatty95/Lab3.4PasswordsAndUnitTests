@@ -1,0 +1,64 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class PasswordAndUnitTest {
+	
+	static ArrayList<String> passwords = new ArrayList<>();
+	static Scanner scan = new Scanner(System.in);
+	
+	
+	static int capVowel = 0;
+	
+
+	public static void main(String[] args) {
+
+		System.out.println("Please enter a password with the following requiremenets: \n"
+				+ "Cannot be an already existing password \n"
+				+ "Must have more than 7 characters, but less than 12 \n"
+				+ "Must have a number, but not contain the number 6. We hate the number 6. \n"
+				+ "Must not contain any spaces \n"
+				+ "Must have at least TWO capital vowels \n"
+				+ "The words \"admin\" and \"mod\" can be used, but may only be used once.");
+		String input = scan.nextLine();
+		addPassword(input);
+		
+		System.out.println(passwords);
+		
+	}
+
+	public static boolean addPassword(String password) {
+		boolean bool = false;
+		if(!passwords.contains(password)) {
+			if(password.length() > 7 && password.length() < 12) {
+				for(int i = 0; i < password.length(); i++) {
+					char c = password.charAt(i);
+					if(Character.isDigit(c) && !password.contains("6")) {
+		}
+		}   if(!password.contains(" ")) {
+				for(int i = 0; i < password.length(); i++) {
+					if(password.charAt(i) == 'A' || password.charAt(i) == 'E' || password.charAt(i) == 'I' || password.charAt(i) == 'O' || password.charAt(i) == 'U' || password.charAt(i) == 'Y') {
+						capVowel++;
+		}
+		}
+				if(capVowel >= 2) {
+					bool = true;
+		}
+		
+		if(bool = true) {
+			passwords.add(password);
+		}
+		}
+		}
+		}
+		return bool;
+	}
+	
+	public static int passLength(String password) {
+		if(password.length() > 7 && password.length() < 12) {
+			return 1;
+		} else {
+			return 0;
+		}
+	}
+}

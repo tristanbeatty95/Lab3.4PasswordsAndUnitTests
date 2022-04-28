@@ -1,0 +1,18 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.ArrayList;
+
+import org.junit.jupiter.api.Test;
+
+class PasswordPromptTest {
+
+	@Test
+	void passwordExists() {
+		String pass = "ArmagEddon1";
+		ArrayList<String> passwords = new ArrayList<>();
+		int expected = 1;
+		int actual = PasswordPrompt.passwordExists(passwords, pass);
+		assertEquals(expected, actual);
+	}
+
+}

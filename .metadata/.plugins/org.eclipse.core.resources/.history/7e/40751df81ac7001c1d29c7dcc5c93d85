@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class PasswordAndUnitTest {
+	
+	static ArrayList<String> passwords = new ArrayList<>();
+	static Scanner scan = new Scanner(System.in);
+
+	public static void main(String[] args) {
+
+		System.out.println("Please enter a password, but good luck...");
+		String input = scan.nextLine();
+		addPassword(input);
+		
+	}
+
+	public static boolean addPassword(String password) {
+		
+		if(!passwords.contains(password)) {
+		}	if(password.length() > 7 && password.length() < 12) {
+		}	if()
+		
+		
+		return false;
+	}
+}

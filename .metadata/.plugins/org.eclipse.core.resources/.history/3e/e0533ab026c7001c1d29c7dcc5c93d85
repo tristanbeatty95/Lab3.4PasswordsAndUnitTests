@@ -1,0 +1,28 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.ArrayList;
+
+import org.junit.jupiter.api.Test;
+
+class PasswordPromptTest {
+
+	@Test //Test to see if I can add a valid password that isn't already in the list
+	void passwordExists() {
+		String pass = "ArmagEddon1";
+		ArrayList<String> passwords = new ArrayList<>();
+		int expected = 1;
+		int actual = PasswordPrompt.passwordExists(passwords, pass);
+		assertEquals(expected, actual);
+	}
+	
+	@Test
+	void passwordExists2() {
+		String pass = "ArmagEddon1";
+		ArrayList<String> passwords = new ArrayList<>();
+		passwords.add("ArmagEddon1");
+		int expected = 0;
+		int actual = PasswordPrompt.passwordExists(passwords, pass);
+		assertEquals(expected, actual);
+	}
+
+}

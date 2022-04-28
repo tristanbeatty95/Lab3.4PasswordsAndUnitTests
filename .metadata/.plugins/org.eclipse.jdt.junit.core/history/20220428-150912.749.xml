@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PasswordPromptTest" project="Lab3.4PasswordandUnitTest" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="PasswordPromptTest" time="0.021" uniqueid="[engine:junit-jupiter]/[class:PasswordPromptTest]">
+    <testcase name="passwordExists" classname="PasswordPromptTest" time="0.019" displayname="passwordExists()" uniqueid="[engine:junit-jupiter]/[class:PasswordPromptTest]/[method:passwordExists()]"/>
+    <testcase name="passLength" classname="PasswordPromptTest" time="0.0" displayname="passLength()" uniqueid="[engine:junit-jupiter]/[class:PasswordPromptTest]/[method:passLength()]"/>
+    <testcase name="passwordExists2" classname="PasswordPromptTest" time="0.0" displayname="passwordExists2()" uniqueid="[engine:junit-jupiter]/[class:PasswordPromptTest]/[method:passwordExists2()]"/>
+  </testsuite>
+</testrun>

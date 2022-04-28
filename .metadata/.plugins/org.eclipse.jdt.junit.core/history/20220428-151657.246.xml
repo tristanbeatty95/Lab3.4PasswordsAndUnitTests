@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PasswordPromptTest" project="Lab3.4PasswordandUnitTest" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="PasswordPromptTest" time="0.027" uniqueid="[engine:junit-jupiter]/[class:PasswordPromptTest]">
+    <testcase name="passSpace" classname="PasswordPromptTest" time="0.018" displayname="passSpace()" uniqueid="[engine:junit-jupiter]/[class:PasswordPromptTest]/[method:passSpace()]"/>
+    <testcase name="passwordExists" classname="PasswordPromptTest" time="0.001" displayname="passwordExists()" uniqueid="[engine:junit-jupiter]/[class:PasswordPromptTest]/[method:passwordExists()]"/>
+    <testcase name="passNum" classname="PasswordPromptTest" time="0.001" displayname="passNum()" uniqueid="[engine:junit-jupiter]/[class:PasswordPromptTest]/[method:passNum()]"/>
+    <testcase name="passLength" classname="PasswordPromptTest" time="0.0" displayname="passLength()" uniqueid="[engine:junit-jupiter]/[class:PasswordPromptTest]/[method:passLength()]"/>
+    <testcase name="passSpace2" classname="PasswordPromptTest" time="0.0" displayname="passSpace2()" uniqueid="[engine:junit-jupiter]/[class:PasswordPromptTest]/[method:passSpace2()]"/>
+    <testcase name="passNum2" classname="PasswordPromptTest" time="0.0" displayname="passNum2()" uniqueid="[engine:junit-jupiter]/[class:PasswordPromptTest]/[method:passNum2()]"/>
+    <testcase name="passwordExists2" classname="PasswordPromptTest" time="0.0" displayname="passwordExists2()" uniqueid="[engine:junit-jupiter]/[class:PasswordPromptTest]/[method:passwordExists2()]"/>
+    <testcase name="passLength2" classname="PasswordPromptTest" time="0.0" displayname="passLength2()" uniqueid="[engine:junit-jupiter]/[class:PasswordPromptTest]/[method:passLength2()]"/>
+  </testsuite>
+</testrun>
